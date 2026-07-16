@@ -16,10 +16,11 @@ public class primeno {
         for (int i=1;i<=n;i++){
            if(n%i==0){
             count++;
+           // System.out.println(i);
            }
 
         }
-        if (count==2){
+        if (count>2){
             System.out.println("is a prime number");
         }
         else{
